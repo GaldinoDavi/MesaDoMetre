@@ -29,7 +29,7 @@ conduz campanhas. Uso individual: cada mestre vê apenas as suas campanhas.
 - **Backend / Dados / Auth:** Supabase (Postgres + Auth + Storage)
 - **Versionamento:** GitHub
 - **Deploy:** Vercel
-- **IA:** API da Anthropic (geração de NPC; análise de imagem)
+- **IA:** API da Anthropic (geração de NPC)
 
 ## 5. Modelo de dados
 
@@ -67,17 +67,19 @@ portuária"). A IA retorna nome, descrição, motivação e status sugeridos,
 que o usuário revisa antes de salvar.
 Critério de pronto: NPC gerado pela IA pode ser editado e salvo como NPC real.
 
-### Onda 4 — Imagem como contexto
-Upload de imagem (mapa, ficha, recorte). A IA analisa e sugere NPCs ou notas
-a partir dela.
-Critério de pronto: a partir de uma imagem, o usuário cria pelo menos um NPC.
+> **Escopo encerrado na Onda 3.** O roadmap original previa uma Onda 4
+> ("Imagem como contexto"); o usuário decidiu não seguir além da Onda 3 — ver
+> seção 7.
 
-## 7. Fora de escopo (por enquanto)
+## 7. Fora de escopo
 
+- **Imagem como contexto** (upload de mapa/ficha/recorte para a IA sugerir
+  NPCs ou notas). Estava planejada como Onda 4; descopada a pedido do usuário
+  — o projeto não terá mais ondas além da 3.
 - Compartilhamento de campanha entre múltiplos mestres.
 - Visão de jogador / portal do jogador.
 - Rolagem de dados e regras de sistema.
-- Tracker de combate em tempo real (candidato a versão futura).
+- Tracker de combate em tempo real.
 - App mobile nativo.
 
 ## 8. Critérios de sucesso
